@@ -47,11 +47,13 @@
             console.log(res.data.message)
             this.$parent.getData()
             this.$parent.isD = false
+            
           }) 
         }
       },
       doCancle(){
         this.$parent.isD = false
+        
       }
     }
   }
@@ -68,11 +70,13 @@
   text-align: center;
   z-index: 9;
   }
+  
   @media screen and (max-width:1300px) {
     .shield{
       width: 1300px;
     }
   }
+  
   .alertFram{
   position:absolute;
   left: calc(50% - 225px);
